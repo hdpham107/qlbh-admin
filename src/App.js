@@ -1,11 +1,15 @@
 import React from "react";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Table from "./components/TableComponent";
 import "./style.scss";
 
 export default function App() {
   return (
     <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
+      <Header/>
+      <Table/>
+      <Footer/>
     </div>
   );
 }
